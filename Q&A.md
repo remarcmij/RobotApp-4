@@ -81,7 +81,7 @@ More info:
 const root = document.getElementById('root');
 ```
 
-`document` is a global variable that is created by the browser at start-up and is available to all JavaScript programs. The DOM (Document Object Model) is a JavaScript 'view' of the HTML structure of the web page and allows you to  dynamically query and modify it.
+`document` is a global variable that is created by the browser at start-up and is available to all JavaScript programs and gives us access to the DOM. The DOM (Document Object Model) is a JavaScript 'view' of the HTML structure of the web page and allows you to  dynamically query and modify it.
 
 More info:
 
