@@ -51,7 +51,7 @@ const root = document.getElementById('root');  // (1)
 renderToolbar(root);  // (2) 
 ```
 
-**(1)** First, we obtain a reference to the DOM object with the `id` of `root`. This happens to be a `div` that we create in the `index.html` file. All the HTML `tags` that we created dynamically in our JavaScript will ultimately be hooked up to the root `div`.
+**(1)** First, we obtain a reference to the DOM object with the `id` of `root`. This happens to be a `div` that we included in the `index.html` file. All the HTML `tags` that we create dynamically in our JavaScript will ultimately be hooked up to the root `div`.
 
 **(2)** Next, we call the `renderToolbar` function, supplying the `root` value from (1) as its argument. For this particular call to `renderToolbar` all occurrences of the `root` parameter are effectively replaced by the value that was passed as an argument. It is as if a local `let` was defined inside the `renderToolbar` function like this:
 
