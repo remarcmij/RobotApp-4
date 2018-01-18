@@ -202,7 +202,7 @@ const elem = document.getElementById('board');
 elem.innerHTML = '';
 ```
 
-`innerHTML` is a property available on DOM elements that allow you to set or get the inner HTML of an element as a text string. For instance, the `innerHTML` from this `div`:
+**A10.** `innerHTML` is a property available on DOM elements that allow you to set or get the inner HTML of an element as a text string. For instance, the `innerHTML` from this `div`:
 
 ```html
  <div id="toolbar">
