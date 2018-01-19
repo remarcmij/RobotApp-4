@@ -11,7 +11,7 @@ Reminder: here you can find an overview description of the code:
 
 **Q1.** I don't think I understand functions. I am also not sure what is the difference between inserting something in () and otherwise. Also, does "render" mean anything at all
 
-**A1.** Consider this **function** from [high-school algebra](https://www.mathplanet.com/education/algebra-2/how-to-graph-functions-and-linear-equations/functions-and-linear-equations) classes:
+**A1.** Consider this **function** from [high-school math](https://www.mathplanet.com/education/algebra-2/how-to-graph-functions-and-linear-equations/functions-and-linear-equations) classes:
 
 > 𝑓(x) = x + 7
 >
@@ -19,7 +19,7 @@ Reminder: here you can find an overview description of the code:
 >
 > 𝑓(2) = 2 + 7 = 9
 
-The value of the function 𝑓(x) is dependent on the value you supply for its argument x. (Instead of the term 'argument', we sometimes use the word 'parameter').
+The value of the function 𝑓(x) is dependent on the value you supply for its argument x. (Instead of the term 'argument', sometimes the word 'parameter' is used). This function add 7 to the value of its argument. Whenever we need to add 7 to some number we can reuse this same function over and over again.
 
 Here is the equivalent JavaScript function:
 
@@ -81,7 +81,7 @@ More info:
 const root = document.getElementById('root');
 ```
 
-`document` is a global variable that is created by the browser at start-up and is available to all JavaScript programs and gives us access to the DOM. The DOM (Document Object Model) is a JavaScript 'view' of the HTML structure of the web page and allows you to  dynamically query and modify it.
+`document` is a global variable that is created by the browser at start-up and is available to all JavaScript programs. It gives us access to the DOM (Document Object Model). The DOM is a JavaScript 'view' of the HTML structure of the web page and allows you to  dynamically query and modify it.
 
 More info:
 

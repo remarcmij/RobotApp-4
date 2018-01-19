@@ -1,5 +1,5 @@
-(function () {
-  'use strict';
+'use strict';
+{
 
   const board = [
     ['T', 'T', '.', 'F'],
@@ -160,4 +160,4 @@
   }
 
   window.onload = renderAll;
-})();
+}
